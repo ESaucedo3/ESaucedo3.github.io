@@ -1,0 +1,24 @@
+/* Eduardo Saucedo
+    November 9, 2022*/
+
+pre.intro{
+    font-size: 13;
+    font-weight: bold;
+    color: green;
+}
+
+pre.alert {
+    background: rgb(23, 130, 180);
+    color: rgb(247, 247, 247);
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+pre.alert1 {
+    background: rgb(138, 116, 17);
+    color: rgb(247, 247, 247);
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px;
+}
