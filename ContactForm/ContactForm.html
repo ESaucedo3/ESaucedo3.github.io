@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- Eduardo Saucedo
+     November 14, 2022 -->
+<html lang="en">
+<head>
+    <title>Contact Form</title>
+    <meta name="author" content="Eduardo Saucedo" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Eduardo web developer Boise Idaho" />
+    <meta name="keywords" content="client-side server-side C# HTML CSS JavaScript" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        div {
+            margin: 10px;
+        }
+
+        label {
+            margin-right: 15px;
+            width: 150px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <form action="mailto:eduardosaucedo@my.cwi.edu" enctype="text/plain" method="POST">
+        <!-- Group Fields Together, page 104 -->
+        <fieldset>
+        <legend>How do I contact you?</legend>
+            <!-- Company Select Box, page 97 -->
+            <div>
+                <label for="compName">Company:</label><br>
+                <input type="text" 
+                 name ="compName"
+                 id="compName"/>
+            </div>
+            <!-- Person to Contact Select Box, page 97 -->
+            <div>
+                <label for="contactName">Person to contact:</label><br>
+                    <input type="text"
+                     name="contactName"
+                     id="contactName"/>
+            </div>
+            <!-- Email, textbook file rental.html -->	
+            <!--Video 9.9 Building and Testing a Valid Form-->	
+            <div>
+                <label for="email">Email:</label>
+                    <input type="text"
+                     name="email"
+                     id="email"/>
+            </div>
+            <!-- Phone, textbook file rental.html-->
+            <!--Video 9.9 Building and Testing a Valid Form-->
+            <div>
+                <label for="phone">Phone Number:</label>
+                    <input type="text"
+                     name="phone"
+                     id="phone"/>
+            </div>
+        </fieldset>
+
+        <!-- Group Fields Together, page 104 -->
+        <fieldset>
+            <legend>What opportunities are available at your company?</legend>
+            <!-- Select Box, page 98 -->
+            <label for="employment">Type of Position:</label>
+            <select name="employment" id="employment">
+                <option value="Intern">Internship</option>
+                <option value="Marketing">Marketing</option>
+                <option value="Lead">Tech Lead</option>
+            </select>
+            <!-- Radio Buttons, page 99 -->
+            <p>How did you find me?</p>
+            <input type="radio" name="referral"
+            id="LinkedIn" value="LinkedIn"/>
+            <label for="LinkedIn">LinkedIn</label>
+
+            <input type="radio" name="referral"
+            id="JobFair" value="JobFair"/>
+            <label for="JobFair">Job Fair</label>
+
+            <input type="radio" name="referral"
+            id="partner" value="partner"/>
+            <label for="partner">CWI Corporate Partner</label>
+            <div>
+                <!-- Text Area, textbook file code-9-1.html -->	
+                <textarea id="comment" name="comment" rows="9" cols="80"></textarea>
+            </div>
+        </fieldset>
+		<input type="submit" id="submit" value="Submit" class="btn">
+     </form>
+</body>
+</html>
