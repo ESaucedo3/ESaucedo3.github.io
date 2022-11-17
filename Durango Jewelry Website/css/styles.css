@@ -1,0 +1,74 @@
+
+/*Eduardo Saucedo
+  November 17, 2022*/
+
+
+
+	 
+#outerwrapper {	
+	border-radius: 15%;
+	background: rgba(243,205,170, 0.4);
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4%;
+}
+
+html{
+	background-image: url(../image/jewelry.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+footer{
+	padding-bottom: 10px;
+}
+
+main{
+	background-image: linear-gradient(#FFFFFF,#F0F9E6);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+#outerwrapper img{
+	float: left;
+	border-radius: 150px;
+}
+
+.addrightmargin{
+	margin-right: 10%;
+}
+
+nav ul{
+	font-size: 1.5em;
+	list-style-type: none;
+}
+
+nav{
+	float: none;
+}
+
+header h1{
+	font-family: 'Pacifico', cursive;
+	font-size:4em;
+}
+
+@font-face {
+	font-family: 'playfairdisplaysc';
+	src:url('../fonts/playfairdisplaysc-regular-webfont.woff') format('woff'),
+	url('../fonts/playfairdisplaysc-regular-webfont.woff2') format('woff2');
+	font-weight: 2em;
+	font-style: italic;
+}
+
+h2{
+	font-family: 'playfairdisplaysc',"Times New Roman",serif;
+}
+
+
+
+
