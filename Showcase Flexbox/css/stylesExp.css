@@ -1,0 +1,37 @@
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    margin: 23px;
+    text-align: center;
+    width: 23%;
+}
+
+.project h3.cover{
+    background: #8bafc7;
+    color: #FFFFFF;
+    padding: 13px;
+    border-radius: 76%;
+}
+
+.project img{
+    margin-bottom: 30;
+}
+
+.project a.button{
+    display:block;
+    width: 40%;
+    margin: 3px auto;
+    color: #000000;
+    background: #0fb86933;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1px;
+}
+
+
