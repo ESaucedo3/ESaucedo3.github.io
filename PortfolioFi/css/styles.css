@@ -1,0 +1,66 @@
+body{
+    background-color: #ccd9e2;
+    font-size: 1.10rem;
+}
+
+@font-face {
+    font-family: 'exo2';
+    src: url('../fonts/exo2-regular-webfont.woff') format('woff'),
+         url('../fonts/exo2-regular-webfont.woff2') format('woff2');
+         font-weight: normal;
+         font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'exo2', "Times New Roman", serif;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background: #2e4557;
+    height: 80px;
+    width: 100%;
+}
+
+label.name{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-family: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active, a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+
+section{
+    background: url(../image/workLaptop.jpg)no-repeat;
+    background-size: cover;
+}
+
+

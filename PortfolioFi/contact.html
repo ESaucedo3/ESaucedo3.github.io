@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--Eduardo Saucedo
+    November 3, 2022 -->
+
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Practice" />
+    <meta name="keywords" content="UX UI product software " />
+    <meta name="author" content="Eduardo" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+</head>
+<body>
+        <nav>
+            <label class="name">Eduardo Saucedo</label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <form action="mailto:eduardosaucedo@my.cwi.edu" enctype="text/plain" method="POST">
+              <!-- Group Fields Together-->
+              <fieldset>
+              <p>How do I contact you?</p>
+                  <!-- Company Select Box-->
+                  <div>
+                    <label for="compName">Company:</label><br>
+                    <input type="text" name ="compName" id="compName"/>
+                  </div>
+                  <!-- Person to Contact Select Box-->
+                  <div>
+                    <label for="contactName">Person to contact:</label><br>
+                    <input type="text" name="contactName" id="contactName"/>
+                  </div>
+                  <!-- Email-->	
+                  
+                  <div>
+                      <label for="email">Email:</label><br>
+                      <input type="text" name="email" id="email" />
+                  </div>
+                  <!-- Phone-->
+                  <div>
+                      <label for="phone">Phone Number:</label><br>
+                      <input type="tel" name="phone" id="phone" 
+                      placeholder="333-333-3333" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">  
+                  </div>
+              </fieldset>
+              <!-- Group Fields Together, page 104 -->
+              <fieldset>
+                  <p>What opportunities are available at your company?</p>
+                  <!-- Select Box, page 99 -->
+                  <div>
+                      <label for="employment">Type of Position:</label>
+                      <select name="employment" id="employment">
+                          <option value="Internship">Internship</option>
+                          <option value="Other">Other</option>
+                      </select>
+                  </div>
+                  <!-- Radio Buttons, page 99 -->
+                  <div>
+                      <p>How did you find me?</p>
+                      <input type="radio" name="Referral" id="Linkedin" value="LinkedIn"><label for="Linkedin">Linkedin</label>
+                      <input type="radio" name="Referral" id="JobFair" value="LinkedIn"><label for="JobFair">Job Fair</label>
+                      <input type="radio" name="Referral" id="CWI Corporate Partner" value="LinkedIn"><label for="CWI Corporate Partner">CWI Corporate Partner</label>
+                  </div>
+                  <!-- Text Area -->	
+                  <div>
+                      <textarea id="comment" name="comment" name="comment" rows="9" cols="80"></textarea> 
+                  </div>
+              </fieldset>
+          <input type="submit" id="submit" value="Submit" class="btn">
+           </form>
+        </main>
+    <br>
+    <h3>Hire Me!</h3>
+    <pre style = font-size:17px;>
+    I will Graduate either <u>Fall 2023 or in 2024</u>. Contact Me at <a href="https://www.google.com/">something@gmail.com</a> or (208) 333-3333
+    to discuss further employment opportunities at your company.
+    </pre>
+
+    <footer>
+        <hr>
+        Find me on: <a target="_blank" href="https://www.linkedin.com/">LinkedIn</a>
+        and <a target="_blank" href="https://github.com/">GitHub</a>
+    </footer>
+</body>
+</html>
