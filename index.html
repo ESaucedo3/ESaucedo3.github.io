@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <title>Eduardo Sosa-Saucedo's Portfolio | Full Stack Developer</title>
+    <!-- Essential Meta Tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Eduardo's Personal Portfolio" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon-xMsRbt9n.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEvUlEQVRYR2NkGGDAOMD2M4w6YDQEhm4IlJS4cdtbG1mz/31/3y1k5m1Ybgp1UeIX5mETfLvhxuPVDAx/CeUyskOgvSbSSVmJ47KZntiR2/ffpruGzjkAtIypJt9PVZD9myD7vw8lP37/nl0y8eJOfI4g2wHVeRFWrZNWHLt9tGDul6/f2AzdZsUiW9SUpqsrJchw+M7D3wYdK248wOUIvA5I8lOXkhJh4OVm/PP3PxMrEwsnx392PnaGnwzsDC/fCYv3Tlt/5M7xghVfPn79dfrim3Z+HnarDx8+Ptuy7fQRKSlVPiPFr/u+/vg3pXDSlclkOSA7zkzYV+9fCwfzb7cv/wWr2bi4GNk5uFh5hPkSFq5/2GzmJHHWUUvqzs3b73cxMfxmunz9eRM76x9F9j+/2t+/+1PHyfal5vufv5sK+q+3kOUAkKZdvfrpjAx/U1yLr5jCDFk5Pd760q2Pv+PC1ZLZWZi037x8y3zt1pvqnWeenVm69OSnjmxTOyYWJlEBzm9TP3//V1Y88eoi8h3QrZ/OxPgn1aXkqgnIkAZgQmNoCBRxMeA3UZAXXXzx5jdLCb7f0758+ca47eib+l+//7/YdXDnI38z4zhl8Z9TLt39pjZx9b1HFDmAkfFP9qlb/9wZuLgY9LWkTRk5+LVV5LiTnrz9F375zj9hUe4fKhoKDK3XbnzdcPHm6809s49snFqkPZ+RiUEwq+eqH0W5YFe3bjor85/Kr/8lmti5Of/zCHI5//zDLcrE8L/WLnrRqf6uRCPGX/942Jl/fuZi/2HNy/I97+vHb3c/fvjK//Hr97TqGdevUOgAYBpg+gNMA1dN1/a7G0mIsvefvM5eWtS6+hTQYMZZU/NNzlw8ckGES0X3388v9+XEv4UKs33veP/+x46M7gtRFBdEO3sM0oBpIH31sisWiYXOZ/8xc56wjtyS1tMSJC8lo8rzh+nvA6YvrwJjshYtmdLkGyYt8LPmwePP+/hYf3kkt53VoNgBe3t0Mv4zMqS++C6SraXEeOjK698qwgLSHEzMPJYvP3PeSciccnTf2vR5H9++2y/AwVh848GHjj9f3nOyMP11zuw4F0ORAyrjzNTMNf9UcjH/MX71k3eLqjxzxptvoo3iEjzBJ6//mcrw89fW1wyv/zjpqc5hYvgh9uDRt+O/f3zh+/vjM9/de+/K2hfdeEuRA6CawaVlWZI6T5C9/JE/LByHnn/mvv7q/Z9dLD9/PHNy01j/6fOXdzPXnoqbNevs/5RwI5M5K8+dIGQxTJ6kuqAhzZhLXl5c7eHDl7caZp39dudk6WxWFgbz+ZtvWDQ0bP4GMrQm1cKlZfaJPTRxALKhm+cnqJqbiV179eF/hI5191qYXFmWu2PXtJ37ae6Ak1vSk+XlBSatXXtPPLth9ReYhQ0FHg4NE3YcoLkDTm9NLpSS4i+WNuyTgVte7CvCzMjAW9uz+T7NHXBkQ7qXigrPyl3bX0nElS7+CrKwozZcv6J55UViLQepIykRIhvc0KDNlhTgdeTrN6btdf1LO7QVLXXZmVhvV3Yse08XB4AsWTUnWUhBRiD26fNP745ff7mhq2vTZ1IspygESLUIl3qyo2DUAdQKAQDX//EwolDCFAAAAABJRU5ErkJggg==" />
+    <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABn0lEQVQ4T2NkoBAwUqifgbYGLFtWLMLC8uhrWNjq77Fu4tyLd738iu5ivC5orwhV8feSKtKym5jVmu8sLsD8Ovf0uU8tCw48+AEzCMWAWDc97jAnhpTP//gviMtKSu0+9vVkbJjilFu33y54/fwp669PHzV+/v65vXjSjWNYDQAJ7u7RnulacjV9Zk+kiKWRWO7/f3+krt98uf3c2bsn5IT+dn94/7uqZu71hzgN2NOjveD9P5G5wlISPiKi/MePXv7+XUbwh/PrZ2/ef3v/WiKn70o+cjhghAHIBWxC4iv/MHAr3f8gto6Z9a/Y82cf/8nwvG3/9fHTppSuCwtxGlAYasnpbvZlAaeAIMN/Lqktjz5yPpIRZRb+9e2Tx6MHL+///PZuS27n5ct4XQCS3DvLyerbP15hSQWZp1xcrLFadhOKs6MMZacuOw/3O84wQDb9wenieZ8//qnUdZn4siLDQ6Fjxo4HJKWDeyfzlizaLhTHwHCBj+HBhx8NCw7A458oF9w+UWTx+s1f2c07nx1on7z6NbZ8Q9u8QExOBQB9xrERRWf6ogAAAABJRU5ErkJggg==" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Other Custom Meta Tags -->
+    <meta
+      name="keywords"
+      content="full stack developer, personal website, web developer, frontend developer, backend developer, HTML, CSS, JavaScript, Vue, React, C#, Node.js, SQL, MongoDB, API development, web applications, C++, Python, Tailwind, Bootstrap, NodeJS, ExpressJS, .NET Core, Vite, ThreeJS, Postman, Git" />
+    <meta name="author" content="Eduardo Sosa-Saucedo" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <script defer src="https://unpkg.com/scrollreveal"></script>
+    <script defer src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script defer type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="module" crossorigin src="/assets/index-G3RY0d4Z.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-K6soN23J.css">
+  </head>
+
+  <body>
+    <noscript>
+      <strong>We're sorry but this portfolio doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
